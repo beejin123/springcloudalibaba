@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>nacos-discovery</artifactId>
+    <artifactId>user</artifactId>
 
     <dependencies>
         <dependency>

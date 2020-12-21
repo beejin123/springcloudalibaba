@@ -6,7 +6,8 @@
     <artifactId>springcloudalibaba</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <modules>
-        <module>nacos-discovery</module>
+        <module>user</module>
+        <module>order</module>
     </modules>
     <name>springcloudalibaba</name>
     <description>springcloudalibaba</description>

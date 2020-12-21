@@ -5,11 +5,10 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class NacosProvider {
+public class OrderController {
 
-    @GetMapping(value = "/echo/{string}")
-    public String echo(@PathVariable String string) {
-        return "Hello Nacos Discovery " + string;
+    @GetMapping(value = "/getOrder/{orderId}")
+    public String getOrder(@PathVariable String orderId) {
+        return orderId;
     }
-
 }
