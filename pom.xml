@@ -8,6 +8,7 @@
     <modules>
         <module>user</module>
         <module>order</module>
+        <module>openFeign</module>
     </modules>
     <name>springcloudalibaba</name>
     <description>springcloudalibaba</description>
