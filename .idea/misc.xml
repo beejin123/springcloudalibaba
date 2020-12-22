@@ -4,11 +4,14 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/user2/pom.xml" />
+        <option value="$PROJECT_DIR$/order2/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/nacos-discovery/pom.xml" />
+        <option value="$PROJECT_DIR$/sentinel/pom.xml" />
       </set>
     </option>
   </component>

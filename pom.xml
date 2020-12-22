@@ -9,6 +9,7 @@
         <module>user</module>
         <module>order</module>
         <module>openFeign</module>
+        <module>gateway</module>
     </modules>
     <name>springcloudalibaba</name>
     <description>springcloudalibaba</description>

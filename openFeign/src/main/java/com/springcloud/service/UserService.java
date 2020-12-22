@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 @FeignClient(name = "user-provider", fallback = UserServiceImpl.class)
 public interface UserService {
 
-    @GetMapping(value = "/getOrder/{userId}")
-    String getOrder(@PathVariable(value = "userId") String userId);
+    @GetMapping(value = "/user/getUser/{userId}")
+    String getUser(@PathVariable(value = "userId") String userId);
 
 }
